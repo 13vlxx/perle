@@ -22,7 +22,7 @@ export const NavbarLayout = () => {
           </ul>
         </nav>
       </header>
-      <section className="px-8 overflow-auto">
+      <section className="px-0 overflow-auto">
         <Outlet />
       </section>
     </section>

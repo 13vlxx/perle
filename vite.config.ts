@@ -11,6 +11,7 @@ export default defineConfig({
   plugins: [react(), tsconfigPaths()],
   resolve: {
     alias: {
+      "@": path.resolve(__dirname, "./src"),
       "@utils": path.resolve(__dirname, "src/_utils"),
       "@assets": path.resolve(__dirname, "src/assets"),
       "@components": path.resolve(__dirname, "src/components"),
